@@ -1,17 +1,17 @@
 console.log("Welcome to Spomtify :)");
 
 let songs = [
-    { songname: "Hass Ke", singer: "Satbir Aujla", filepath:"song/hasske.mp3", coverpath: "/images/hasske.png"},
-    { songname: "Do Gallan", singer: "Garry Sandhu", filepath: "song/dogallan.mp3", coverpath: "/images/dogallan.jpg" },
-    { songname: "Band Darvaze", singer: "Amrinder Gill", filepath: "song/band.mp3", coverpath:"/images/band.png" },
-    { songname: "I Stil Adore U", singer: "Harman Hundal", filepath: "song/adore.mp3", coverpath: "/images/adore.png" },
-    { songname: "Lemonade", singer: "Daljit Dosanjh", filepath: "song/lemonade.mp3", coverpath: "/images/lemon.jpg" },
-    { songname: "Jhaanjar", singer: "B Praak", filepath: "song/jhanjar.mp3", coverpath: "/images/jhan.jpg" },
-    { songname: "Jido Tusi Hasde Ho", singer: "Akhtar", filepath: "song/jido.mp3", coverpath: "/images/jido.jpg"},
-    { songname: "Shokeen", singer: "Tarsem Jassar", filepath: "song/shokeen.mp3", coverpath: "/images/shokeen.jpg" },
-    { songname: "In Love Again", singer: "Harman Hundal", filepath: "song/love.mp3", coverpath: "/images/love.jpg"},
-    { songname: "Feelinga", singer: "Garry Sandhu", filepath: "song/feelinga.mp3", coverpath: "/images/feel.jpg" },
-    { songname: "Pasoori", singer: "Shae Gill, Ali Sethi", filepath: "song/pasoori.mp3", coverpath: "/images/pasoori.jpg" }
+    { songname: "Hass Ke", singer: "Satbir Aujla", filepath:"song/hasske.mp3", coverpath: "images/hasske.png"},
+    { songname: "Do Gallan", singer: "Garry Sandhu", filepath: "song/dogallan.mp3", coverpath: "images/dogallan.jpg" },
+    { songname: "Band Darvaze", singer: "Amrinder Gill", filepath: "song/band.mp3", coverpath:"images/band.png" },
+    { songname: "I Stil Adore U", singer: "Harman Hundal", filepath: "song/adore.mp3", coverpath: "images/adore.png" },
+    { songname: "Lemonade", singer: "Daljit Dosanjh", filepath: "song/lemonade.mp3", coverpath: "images/lemon.jpg" },
+    { songname: "Jhaanjar", singer: "B Praak", filepath: "song/jhanjar.mp3", coverpath: "images/jhan.jpg" },
+    { songname: "Jido Tusi Hasde Ho", singer: "Akhtar", filepath: "song/jido.mp3", coverpath: "images/jido.jpg"},
+    { songname: "Shokeen", singer: "Tarsem Jassar", filepath: "song/shokeen.mp3", coverpath: "images/shokeen.jpg" },
+    { songname: "In Love Again", singer: "Harman Hundal", filepath: "song/love.mp3", coverpath: "images/love.jpg"},
+    { songname: "Feelinga", singer: "Garry Sandhu", filepath: "song/feelinga.mp3", coverpath: "images/feel.jpg" },
+    { songname: "Pasoori", singer: "Shae Gill, Ali Sethi", filepath: "song/pasoori.mp3", coverpath: "images/pasoori.jpg" }
 ]
 
 let songindex = 0;
