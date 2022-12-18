@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spomtifyy</title>
+    <link rel="stylesheet" href="spomtify.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <ul class="nav-list">
+            <li id="logolist"><i class="fa-brands fa-spotify" id="logo"></i>Spomtifyy</li>
+            <li><i class="fa-solid fa-house" id="home"></i>Home</li>
+            <li><i class="fa-solid fa-magnifying-glass" id="search"></i>Search</li><br>
+            <li><i class="fa-solid fa-circle-plus" id="create"></i>Create Playlist</li>
+            <li><i class="fa-solid fa-heart" id="liked"></i>Liked Songs</li>
+        </ul>
+    </nav>
+
+    <div id="main-screen">
+        <div id="top-nav-bar">
+            <button id="upgrade">Upgrade</button>
+        </div>
+        <br>
+        <div class="banner">
+            <div class="heart">
+                <i class="fa-solid fa-heart fa-4x" id="banner-heart"></i>
+            </div>
+            <span id="banner-heading">Favourite Songs</span>
+        </div>
+    </div><br>
+
+    <div id="playlist">
+        <div id="heading">
+            <div id="number">#</div>
+            <div id="title">TITLE</div>
+            <div id="song"></div>
+            <div id="album">ALBUM</div>
+            <div id="dateadded">DATE ADDED ON</div>
+            <div id="duration">DURATION</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>1</div>
+            <div><img src="/images/hasske.png" class="cover"></div>
+            <div>
+                <span class="name">Hass Ke</span><br>
+                <small class="author">Satbir Aujla</small>
+            </div>
+            <div>Hass Ke</div>
+            <div>3 day ago</div>
+            <div>02:46</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>2</div>
+            <div><img src="/images/dogallan.jpg" class="cover"></div>
+            <div>
+                <span class="name">Do Gallan</span><br>
+                <small class="author">Garry Sandhu</small>
+            </div>
+            <div>Do Gallan</div>
+            <div>1 day ago</div>
+            <div>04:11</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>3</div>
+            <div><img src="/images/band.png" class="cover"></div>
+            <div>
+                <span class="name">Band Darwaze</span><br>
+                <small class="author">Amrinder Gill</small>
+            </div>
+            <div>Band Darwaze</div>
+            <div>2 day ago</div>
+            <div>05:08</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>4</div>
+            <div><img src="/images/adore.png" class="cover"></div>
+            <div>
+                <span class="name">I Still Adore U</span><br>
+                <small class="author">Harman Hundal</small>
+            </div>
+            <div>I Still Adore U</div>
+            <div>1 day ago</div>
+            <div>03:40</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>5</div>
+            <div><img src="/images/lemon.jpg" class="cover"></div>
+            <div>
+                <span class="name">Lemomade</span><br>
+                <small class="author">Daljit Dosanjh</small>
+            </div>
+            <div>Lemonade</div>
+            <div>1 day ago</div>
+            <div>02:46</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>6</div>
+            <div><img src="/images/jhan.jpg" class="cover"></div>
+            <div>
+                <span class="name">Jhaanjar</span><br>
+                <small class="author">B Praak</small>
+            </div>
+            <div>Jhaanjar</div>
+            <div>5 day ago</div>
+            <div>03:55</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>7</div>
+            <div><img src="/images/jido.jpg" class="cover"></div>
+            <div>
+                <span class="name">Jido Tusi Hasde Ho</span><br>
+                <small class="author">Akhtar</small>
+            </div>
+            <div>Jido Tusi Hasde Ho</div>
+            <div>1 day ago</div>
+            <div>03:53</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>8</div>
+            <div><img src="/images/shokeen.jpg" class="cover"></div>
+            <div>
+                <span class="name">Shokeen</span><br>
+                <small class="author">Tarsem Jassar</small>
+            </div>
+            <div>Shokeen</div>
+            <div>1 day ago</div>
+            <div>03:20</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>9</div>
+            <div><img src="/images/love.jpg" class="cover"></div>
+            <div>
+                <span class="name">In Love Again</span><br>
+                <small class="author">Harman Hundal</small>
+            </div>
+            <div>In Love Again</div>
+            <div>1 day ago</div>
+            <div>03:56</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>10</div>
+            <div><img src="/images/feel.jpg" class="cover"></div>
+            <div>
+                <span class="name">Feelinga</span><br>
+                <small class="author">Garry Sandhu</small>
+            </div>
+            <div>Feelinga</div>
+            <div>2 day ago</div>
+            <div>03:08</div>
+        </div>
+        <div class="songlist" onclick="clickplay(this)">
+            <div>11</div>
+            <div><img src="/images/pasoori.jpg" class="cover"></div>
+            <div>
+                <span class="name">Pasoori</span><br>
+                <small class="author">Shae Gill, Ali Sethi</small>
+            </div>
+            <div>Pasoori</div>
+            <div>1 day ago</div>
+            <div>03:44</div>
+        </div>
+    </div>
+
+    <div id="player">
+        <div id="currsong">
+            <img src="/images/hasske.png" id="song">
+            <div class="currname">Hass Ke</div>
+            <small class="currauthor">Satbir Aujla</small>
+        </div>
+
+        <div class="centered">
+            <i class="fa-solid fa-shuffle" id="shufflebtn"></i>
+            <i class="fa-solid fa-backward-step" id="prevbtn"></i>
+            <i class="fa-solid fa-circle-play" id="playpausebtn"></i>
+            <i class="fa-solid fa-forward-step" id="nextbtn"></i>
+            <i class="fa-solid fa-arrow-rotate-left" id="loopbtn"></i>
+            <br><small id="currtime">00:00</small>
+            <input type="range" id="bar" min="0" max="100" value="0">
+            <small id="totaltime">00:00</small>
+        </div>
+
+        <div id="tools">
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" id="volumebar" min="0" max="100" value="100">
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/221ba7fb20.js" crossorigin="anonymous"></script>
+    <script src="spomtify.js"></script>
+</body>
+
+</html>
